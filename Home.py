@@ -6,12 +6,10 @@ import os
 from dotenv import load_dotenv
 import psycopg2
 from sqlalchemy import create_engine
+from src.data.data_preparation import load_data, clean_data
 # Load dataset
 @st.cache
-def load_data():
-    # Load telecom dataset
-    df = pd.read_csv("telecom_dataset.csv")
-    return df
+
 
 # Main function
 def main():
