@@ -23,13 +23,6 @@ def main():
     st.subheader("Telecom Dataset")
     st.write(df)
 
-    # Task 1.1: Aggregate User Behavior
-    st.subheader("Task 1.1 - Aggregate User Behavior")
-    # Code for task 1.1 goes here
-
-    # Task 1.2: Exploratory Data Analysis
-    st.subheader("Task 1.2 - Exploratory Data Analysis")
-    # Code for task 1.2 goes here
 
 # Run the app
 if __name__ == "__main__":
